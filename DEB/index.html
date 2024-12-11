@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="container bg-info">
+    <!-- Navbar -->
+    <nav class="navbar navbar-light fixed-top bg-secondary shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-info fw-bold fs-2" href="index.html"
+          >Debby's Website</a
+        >
+        <div class="dropdown">
+          <button
+            class="btn btn-light px-3"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <li>
+              <a class="dropdown-item text-success fw-bold" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Start of home section -->
+    <section class="home mt-5">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <!-- Left side -->
+          <div class="col-md-6">
+            <div class="home-img text-center">
+              <img
+                src="img/profile.png"
+                height="300"
+                width="300"
+                alt="profile image"
+                class="rounded-circle"
+              />
+            </div>
+          </div>
+          <!-- Right side -->
+          <div class="col-md-6 pt-5">
+            <div class="home-text text-center">
+              <h1 class="text-muted">Hello, I'm</h1>
+              <h4 class="text-success text-uppercase fs-1 fw-bold">Debby</h4>
+              <br />
+              <h4 class="fs-4">A Web Designer</h4>
+              <br />
+              <p class="text-muted">
+                Follow on whatsapp and google for more information.
+              </p>
+              <!-- Social links -->
+              <div class="d-flex justify-content-center">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a href="https://wa.me/+256788072279?text=Hello%20there" target="_blank">
+                      <i class="fab fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                     
+
+                    <a href="mailto:deborahpita166@gmail.com?subject=Hello&body=Message%20body" target="_blank">
+                      <i class="fas fa-envelope"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <h1 class="text-muted">
+              Check out my Profile <span><a href="profile.html">Here</a></span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of home section -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

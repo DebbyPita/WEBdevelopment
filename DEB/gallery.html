@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Gallery Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light fixed-top bg-secondary shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-info fw-bold fs-2" href="index.html"
+          >Debby's Website: Gallery</a
+        >
+        <div class="dropdown">
+          <button
+            class="btn btn-light px-3"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+            <li>
+              <a class="dropdown-item text-success fw-bold" href="gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br />
+
+    <!-- Gallery section starts here -->
+    <section class="">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <!-- Video -->
+          <div class="col-6">
+            <video width="320" height="240" controls>
+              <source src="vid/vid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <!-- Pictures -->
+          <div class="col-4"></div>
+          <h2>Me</h2>
+          <div class="col-4">
+                  <!-- Left side -->
+                  <div class="col-md-6">
+                    <div class="home-img text-center">
+                      <img
+                        src="img/profile.png"
+                        height="200"
+                        width="200"
+                        alt="profile image">
+                        <div class="col-4"></div>
+
+                        <h2>Family</h2>
+                        <div class="col-4">
+                                <!--left side -->
+                                <div class="col-md-5">
+                                  <div class="home-img text-center">
+                                    <img
+                                      src="img/fam.jpg"
+                                      height="200"
+                                      width="200"
+                                      alt="Family image">    
+
+<h2>Friends</h2>
+                        <div class="col-4">
+                                <!--left side -->
+                                <div class="col-md-5">
+                                  <div class="home-img text-center">
+                                    <img
+                                      src="img/Friends.jpg"
+                                      height="200"
+                                      width="200"
+                                      alt="Family image">    
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
